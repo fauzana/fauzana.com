@@ -4,14 +4,12 @@ module.exports = {
   blogAuthorId: "fauzana", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "The Fauzana Times", // Site title.
   siteTitleAlt: "It's not about bit, byte, and protocol. But profit, loses, and margins.", // Alternative site title for SEO.
-  siteLogo:
-    "https://fauzana.com/blog/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://fauzana.com", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
     "The personal site of Fauzana S. Software Engineer based in Jakarta, Indonesia.", // Website description used for RSS feeds/meta description tag.
-  siteCover:
-    "https://fauzana.com/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+  siteCover: "/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Fauzana S", // The author name used in the RSS file
