@@ -9,7 +9,7 @@ module.exports = {
   siteUrl: "https://fauzana.com", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "The personal site of Fauzana S. A Software Engineer based in Jakarta, Indonesia.", // Website description used for RSS feeds/meta description tag.
+    "The personal site of Fauzana S. Software Engineer based in Jakarta, Indonesia.", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "https://fauzana.com/images/blog-cover.jpg", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   siteNavigation: true, // If navigation is enabled the Menu button will be visible
