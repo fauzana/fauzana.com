@@ -3,7 +3,7 @@ module.exports = {
   blogAuthorDir: "blog-authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "fauzana", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "The Fauzana Times", // Site title.
-  siteTitleAlt: "It's not about bit, byte, and protocol. But profit, loses, and margins.", // Alternative site title for SEO.
+  siteTitleAlt: "It's not about bit, byte, and protocol. But profits, loses, and margins.", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://fauzana.com", // Domain of your website without pathPrefix.
   pathPrefix: "/blog", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
