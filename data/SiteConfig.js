@@ -1,6 +1,6 @@
 module.exports = {
   blogPostDir: "fauzana-posts", // The name of directory that contains your posts.
-  blogAuthorDir: "fauzana-authors", // The name of directory that contains your 'authors' folder.
+  blogAuthorDir: "blog-authors", // The name of directory that contains your 'authors' folder.
   blogAuthorId: "fauzana", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "The Fauzana Times", // Site title.
   siteTitleAlt: "It's not about bit, byte, and protocol. But profit, loses, and margins.", // Alternative site title for SEO.
