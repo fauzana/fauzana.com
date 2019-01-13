@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
+  <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
 </div>
 
 # Gatsby v2
@@ -7,6 +7,7 @@
 NOTE: This is a Gatsby v2 fork of [gatsby-starter-casper](https://github.com/haysclark/gatsby-starter-casper) by [@haysclark](https://github.com/haysclark). The upgrade to v2 was mostly done by [@hnspn](https://github.com/hnspn) with a little help from the folks at [GatsbyCentral](https://www.gatsbycentral.com/).
 
 # Gatsby Casper Starter
+
 [![Code Climate](https://codeclimate.com/github/haysclark/gatsby-starter-casper/badges/gpa.svg)](https://codeclimate.com/github/haysclark/gatsby-starter-casper)
 [![Issue Count](https://codeclimate.com/github/haysclark/gatsby-starter-casper/badges/issue_count.svg)](https://codeclimate.com/github/haysclark/gatsby-starter-casper)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
