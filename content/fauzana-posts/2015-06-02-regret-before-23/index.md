@@ -1,7 +1,8 @@
 ---
 title: "Things I Regret before Turning into 23"
 cover: "/images/post-covers/regret.jpg"
-date: "2015-09-11"
+date: "2015-06-02"
+slug: "regret-before-23"
 category: "Lyfe"
 tags:
     - life
