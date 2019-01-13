@@ -36,6 +36,11 @@ module.exports = {
       iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
     },
     {
+      label: "Instagram",
+      url: "https://instagram.com/fauzana_s",
+      iconClassName: "fa fa-instagram" // Disabled, see Navigation.jsx
+    },
+    {
       label: "Email",
       url: "mailto:fauzanaisnana@gmail.com",
       iconClassName: "fa fa-envelope" // Disabled, see Navigation.jsx
