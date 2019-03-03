@@ -2,6 +2,7 @@
 title: "My Life My Rules"
 cover: "/images/post-covers/ruler.jpeg"
 date: "2015-01-02"
+author: "fauzana"
 category: "Lyfe"
 tags:
     - life
