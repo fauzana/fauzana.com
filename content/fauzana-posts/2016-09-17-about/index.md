@@ -1,6 +1,6 @@
 ---
 title: "What? The Freaky Nana? Who is She?"
-cover: "/images/post-covers/art-artistic-bazaar.jpg"
+cover: "/images/blog-cover.jpg"
 date: "2016-09-17"
 category: "About"
 slug: "about"
