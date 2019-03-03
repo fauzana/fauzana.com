@@ -6,6 +6,7 @@ import favicon from "./favicon.png";
 
 export default class HTML extends React.Component {
   render() {
+    const { headComponents, body, postBodyComponents } = this.props;
     return (
       <html lang="en">
         <head>
@@ -29,15 +30,15 @@ export default class HTML extends React.Component {
             href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400"
           />
 
-          {this.props.headComponents}
+          {headComponents}
           <link rel="shortcut icon" href={favicon} />
         </head>
         <body>
           <div
             id="___gatsby"
-            dangerouslySetInnerHTML={{ __html: this.props.body }}
+            dangerouslySetInnerHTML={{ __html: body }}
           />
-          {this.props.postBodyComponents}
+          {postBodyComponents}
         </body>
       </html>
     );

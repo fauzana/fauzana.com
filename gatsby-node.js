@@ -50,7 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
       )
     ) {
       reject(
-        "The 'authors' folder is missing within the 'blogAuthorDir' folder."
+        new Error("The 'authors' folder is missing within the 'blogAuthorDir' folder.")
       );
     }
 
@@ -60,6 +60,7 @@ exports.createPages = ({ graphql, actions }) => {
           {
             allMarkdownRemark(
               limit: 1000
+              filter: { frontmatter: { page: { ne: "true" } } }
               sort: { fields: [frontmatter___date], order: DESC }
             ) {
               totalCount

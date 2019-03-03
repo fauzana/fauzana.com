@@ -51,7 +51,8 @@ class PostTemplate extends React.Component {
 
   handleOnClick = evt => {
     evt.stopPropagation();
-    if (this.state.menuOpen) {
+    const menuOpen = this.state;
+    if (menuOpen) {
       this.closeMenu();
     } else {
       this.openMenu();
@@ -72,14 +73,15 @@ class PostTemplate extends React.Component {
   };
 
   render() {
-    const { location, data } = this.props;
-    const { slug, next, prev } = this.props.pageContext;
-    const postNode = this.props.data.markdownRemark;
+    const { props } = this;
+    const { location, data } = props;
+    const { slug, next, prev } = props.pageContext;
+    const postNode = props.data.markdownRemark;
     const post = parsePost(postNode.frontmatter, slug);
     const { cover, title, date, author, tags } = post;
     const className = post.post_class ? post.post_class : "post";
     const authorData = AuthorModel.getAuthor(
-      this.props.data.authors.edges,
+      props.data.authors.edges,
       author,
       config.blogAuthorId
     );
@@ -87,7 +89,7 @@ class PostTemplate extends React.Component {
     const getPrevData = () => (prev ? formatReadNext(data.prev) : null);
 
     return (
-      <Layout location={this.props.location}>
+      <Layout location={props.location}>
         <Drawer className="post-template" isOpen={this.state.menuOpen}>
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
