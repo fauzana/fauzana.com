@@ -26,8 +26,7 @@ class IndexTemplate extends React.Component {
 
   handleOnClick = evt => {
     evt.stopPropagation();
-    const { menuOpen } = this.state;
-    if (menuOpen) {
+    if (this.state.menuOpen) {
       this.closeMenu();
     } else {
       this.openMenu();
@@ -59,11 +58,10 @@ class IndexTemplate extends React.Component {
       next
     } = pageContext;
     const authorsEdges = data.authors.edges;
-    const { menuOpen } = this.state;
 
     return (
       <Layout location={location}>
-        <Drawer className="home-template" isOpen={menuOpen}>
+        <Drawer className="home-template" isOpen={this.state.menuOpen}>
           <Helmet title={config.siteTitle} />
           <SEO postEdges={nodes} />
 

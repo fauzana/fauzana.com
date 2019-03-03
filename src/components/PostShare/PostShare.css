@@ -43,6 +43,10 @@
         width: auto;
     }
 
+    .post-footer .share .SocialMediaShareButton {
+        flex: 1;
+    }
+
     .post-footer .share a {
         margin: 1.4rem 0.8rem 0;
     }

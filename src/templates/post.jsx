@@ -51,8 +51,7 @@ class PostTemplate extends React.Component {
 
   handleOnClick = evt => {
     evt.stopPropagation();
-    const menuOpen = this.state;
-    if (menuOpen) {
+    if (this.state.menuOpen) {
       this.closeMenu();
     } else {
       this.openMenu();

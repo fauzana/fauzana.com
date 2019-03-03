@@ -40,8 +40,7 @@ class AboutPage extends Component {
 
   handleOnClick = evt => {
     evt.stopPropagation();
-    const { menuOpen } = this.state;
-    if (menuOpen) {
+    if (this.state.menuOpen) {
       this.closeMenu();
     } else {
       this.openMenu();
@@ -73,11 +72,10 @@ class AboutPage extends Component {
       author,
       config.blogAuthorId
     );
-    const { menuOpen } = this.state;
 
     return (
       <Layout location={location}>
-        <Drawer className="post-template" isOpen={menuOpen}>
+        <Drawer className="post-template" isOpen={this.state.menuOpen}>
           <Helmet>
             <title>{`About | ${config.siteTitle}`}</title>
           </Helmet>

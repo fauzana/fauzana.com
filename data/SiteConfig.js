@@ -18,11 +18,11 @@ module.exports = {
   googleAnalyticsID: "UA-111982167-1", // GA tracking ID.
   // disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // enables Disqus comments, visually deviates from original Casper theme.
   siteSocialUrls: [
-    "https://github.com/fauzana",
-    "https://twitter.com/fauzana_s",
-    "mailto:fauzanaisnana@gmail.com"
+    // "https://github.com/fauzana",
+    // "https://twitter.com/fauzana_s",
+    // "mailto:fauzanaisnana@gmail.com"
   ],
-  postDefaultCategoryID: "Tech", // Default category for posts.
+  postDefaultCategoryID: "Random", // Default category for posts.
   // Links to social profiles/projects you want to display in the navigation bar.
   userLinks: [
     {
