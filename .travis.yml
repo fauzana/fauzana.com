@@ -14,7 +14,9 @@ git:
   depth: 3
 script:
   - yarn build
-  - mv CNAME README.md
+after_success:
+  - mv CNAME $TRAVIS_BUILD_DIR
+  - mv README.md $TRAVIS_BUILD_DIR
 deploy:
   provider: pages
   skip-cleanup: true
