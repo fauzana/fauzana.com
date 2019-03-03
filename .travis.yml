@@ -15,8 +15,8 @@ git:
 script:
   - yarn build
 after_success:
-  - mv CNAME $TRAVIS_BUILD_DIR
-  - mv README.md $TRAVIS_BUILD_DIR
+  - cp CNAME public
+  - cp README.md public
 deploy:
   provider: pages
   skip-cleanup: true
