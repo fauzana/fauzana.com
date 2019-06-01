@@ -74,4 +74,6 @@ Still under construction. No one can guarantee our plan is gonna working out. It
 > Life has taught me that you can't control someone's loyalty. No matter how good you are to them, doesn't mean they'll treat you the same. No matter how much they mean to you, doesn't mean they'll value you the same. Sometimes the people you care the most, turn out to be the people you can trust the least. <br>
 > ~ Trent Shalton, with changes.
 
+`#NP SEKAI NO OWARI - Yume`
+
 __*Have a wonderful days, everyone! 🎉*__
