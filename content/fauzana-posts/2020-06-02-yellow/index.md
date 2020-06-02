@@ -22,14 +22,14 @@ Becoming a first time manager requires a transformation of professional identity
 
 ## Another Term of Prelude
 
-[![@fauzana_s Instagram's](/images/post-images/fauzana_s_instagrams.jpg "@fauzana_s Instagram's")](https://www.instagram.com/fauzana_s)
+Did you reply to my post below? #NoMention
 
-Did you reply to my post above? #NoMention
+[![@fauzana_s Instagram's](/images/post-images/fauzana_s_instagrams.jpg "@fauzana_s Instagram's")](https://www.instagram.com/fauzana_s)
 
 I think it was clever option to reply with that anime scene. #Impressed
 
 > Aaand whaat it taaakes to be #MentionAble?
 
-`#NP Yellow - Coldplay` [Song Meaning](https://justrandomthings.com/2017/07/02/coldplay-yellow-lyrics-review-song-meaning/)
+`#NP Yellow - Coldplay` or jump to [song meaning](https://justrandomthings.com/2017/07/02/coldplay-yellow-lyrics-review-song-meaning/)
 
 __*Have a nice days, everyone! 🎉*__
