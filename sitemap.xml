@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://fauzana.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fauzana.com/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fauzana.com/yellow</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fauzana.com/learn-the-lesson</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fauzana.com/quarter-life-crisis</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fauzana.com/yet-another-24-birthday</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -15,6 +16,7 @@
 <url> <loc>https://fauzana.com/my-life-my-rules</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fauzana.com/tags/life/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fauzana.com/tags/life/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://fauzana.com/tags/yellow/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fauzana.com/tags/regret/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fauzana.com/tags/work/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://fauzana.com/tags/resolution/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
